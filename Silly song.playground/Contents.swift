@@ -16,7 +16,7 @@ func shortNameForName(name: String) -> String {
     return ""
 }
 
-shortNameForName(name: "Alaa")
+shortNameForName(name: "Menna")
 
 
 func lyricsForName(lyricsTemplate: String, fullName: String) -> String {
@@ -37,4 +37,4 @@ let bananaFanaTemplate = [
     "<FULL_NAME>"].joined(separator: "\n")
 
 
-print(lyricsForName(lyricsTemplate: bananaFanaTemplate, fullName: "Alaa"))
+print(lyricsForName(lyricsTemplate: bananaFanaTemplate, fullName: "Menna"))
